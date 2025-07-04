@@ -243,10 +243,7 @@ public class StudentRegister {
 
     private static void passMateria(){
         average = calculateStudentAverage();
-        if(average <3){
-            System.out.println("El estudiante no paso la materia");   
-        }else{
-            System.out.println("El estudiante paso la materia");
-        }
+        System.out.println(average <3 ? "El estudiante no paso la materia" :
+                "El estudiante paso la materia");
     }
 }
