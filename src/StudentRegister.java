@@ -50,9 +50,9 @@ public class StudentRegister {
                         do {
                             System.out.print("¿Está seguro? (si/no): ");
                             sure = scanner.nextLine().trim().toLowerCase();
-                        } while (!sure.equals("no"));
+                        } while (!sure.equals("no")&&!sure.equals("si"));
 
-                        if (sure.equals("no")) {
+                        if (sure.equals("si")) {
                             passMateria();
                         }
                         break;
