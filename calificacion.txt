@@ -1,0 +1,1 @@
+Andy-Esteban-Torres-Cartagena: 4.2/5.0 ⭐⭐⭐⭐⭐ | Excelente modularidad y validaciones. Corregir comparación de Strings (usar equals()) y agregar break en case 5. Muy buen trabajo! 👏
